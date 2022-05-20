@@ -4,7 +4,7 @@
             <pages>
                 <Page id="page" title="{i18n>title}">
                     <content>
-                        <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}" headerText="Suppliers">
+                        <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}" headerText="All Suppliers">
                             <items>
                                 <StandardListItem type="Active" title="{CompanyName}" description="{WebAddress}"/>
                             </items>
